@@ -1,4 +1,4 @@
-const bgPath = "http://localhost:3000/certificate-bg.jpg";
+const bgPath = "http://fh-certificate-production.up.railway.app/certificate-bg.jpg";
 export function generateCertificateHTML({
   name,
   date,
