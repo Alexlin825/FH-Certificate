@@ -7,7 +7,7 @@ import archiver from "archiver";
 export const runtime = "nodejs";
 
 // Excel日期序列轉換為yyyy/mm/dd
-function excelDateToString(serial) {
+function excelDateToString(serial: number) {
   const utc_days = Math.floor(serial - 25569);
   const utc_value = utc_days * 86400;
   const date_info = new Date(utc_value * 1000);
