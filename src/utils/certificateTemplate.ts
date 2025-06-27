@@ -22,6 +22,12 @@ export function generateCertificateHTML({
     <head>
       <meta charset="UTF-8" />
       <style>
+        @font-face {
+          font-family: 'Noto Sans TC';
+          src: url('/NotoSansTC-Regular.otf') format('opentype');
+          font-weight: normal;
+          font-style: normal;
+        } 
         body {
   margin: 0;
   padding: 0;
