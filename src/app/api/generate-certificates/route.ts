@@ -43,6 +43,7 @@ export async function POST(req: NextRequest) {
     totalScore: ["積分", "總積分", "Score", "積分數"],
     unit: ["單位"]
   };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function getFieldValue(row: any, keys: string[]) {
     for (const key of keys) {
       if (row[key] !== undefined && row[key] !== null && row[key] !== "") {
